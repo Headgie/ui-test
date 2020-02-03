@@ -5,10 +5,10 @@
 4. Установить Create React App https://create-react-app.dev/docs/getting-started
 5. Склонировать этот репозиторий
 6. В терминале перейти в папку репозитория и выполнить: 
-   1. yarn install
-   2. yarn start
+    `yarn install`
+    `yarn start`
 
-## ---
+## 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
