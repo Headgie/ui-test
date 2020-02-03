@@ -1,11 +1,18 @@
 import React from "react";
 import "./App.css";
 
-const TableRow = ({ id, name, email, phone, city }) => {
+// Компонент строки таблицы (функциональный компонент)
+const TableRow = (props) => {
+  const { id, name, email, phone, city, onClick, selected } = props;
+  const handleClick =() => {
+    onClick(props);
+  }
   return (
-    <tr className="MuiTableRow-root MuiTableRow-hover" key={id}>
+    <tr className={"MuiTableRow-root MuiTableRow-hover" +
+      (selected?" Mui-selected":"")} 
+      key={id} onClick={handleClick}>
       <th className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall">
-        {name}
+         {name}
       </th>
       <td className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeSmall">
         {email}

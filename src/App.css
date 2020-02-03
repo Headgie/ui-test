@@ -64,6 +64,13 @@
   outline: 0;
   vertical-align: middle;
 }
+.MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiTableRow-root.Mui-selected, .MuiTableRow-root.Mui-selected:hover {
+  background-color: rgba(0, 139, 220, 0.08);
+  border-left: 2px solid rgba(0, 139, 220, 0.315) ;
+}
 
 .MuiTableCell-alignRight {
     text-align: right;
@@ -93,6 +100,3 @@
   flex-direction: row-reverse;
 }
 
-.MuiTableRow-root.MuiTableRow-hover:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-}
