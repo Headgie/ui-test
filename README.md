@@ -1,3 +1,14 @@
+## Инструкция по установке
+1. Скачать и установить VSCode https://code.visualstudio.com/ Плагины и расширения по вкусу.
+2. Скачать и установить node.js https://nodejs.org/ru/ Инструкция здесь https://docs.npmjs.com/try-the-latest-stable-version-of-npm В качестве терминала лучше всего пользоваться git.bash
+3. Установить менеджер пакетов yarn https://yarnpkg.com/getting-started/install (Раздел Global Install)
+4. Установить Create React App https://create-react-app.dev/docs/getting-started
+5. Склонировать этот репозиторий
+6. В терминале перейти в папку репозитория и выполнить: 
+   1. yarn install
+   2. yarn start
+
+## ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
